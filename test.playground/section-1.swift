@@ -14,3 +14,8 @@ for character in "swift" {
     println(character)
 }
 
+var name = "name"
+
+
+
+
