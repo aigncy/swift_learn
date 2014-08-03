@@ -42,6 +42,29 @@ for number in 1...3 {
     println("\(number)*10 = \(number*10)")
 }
 
+for (animalName, legnumber) in numberofLegs {
+    println("a \(animalName) has \(legnumber) legs")
+}
+
+var shoppingList = ["eggs","milk"]
+
+println(shoppingList[0])
+
+shoppingList += "bear"
+
+shoppingList[0] = "drink"
+
+shoppingList += "toys"
+
+numberofLegs["human"]=3
+
+println(numberofLegs)
+
+println(shoppingList)
+
+numberofLegs["chicks"] = 5
+
+println(numberofLegs)
 
 
 
