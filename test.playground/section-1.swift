@@ -10,11 +10,38 @@ for character in "Dog!🐶" {
     println(character)
 }
 
-for character in "swift" {
-    println(character)
+var languageName:String = "swift"
+
+let newName = "dog"
+
+var isAwesome = true
+
+let year = 2014
+
+let china = "ch"
+let video = "vi"
+let chinavideo = china + video
+
+let a = 3, b = 5
+
+let result = "\(a)*\(b) = \(a*b)"
+
+var variables = "yes"
+
+variables += "no"
+
+var names = ["dog","mouse","chicks"]
+
+var numberofLegs = ["spider":8,"dog":4,"human":2]
+
+for var i = 1; i <= 4; ++i {
+    println(i)
 }
 
-var name = "name"
+for number in 1...3 {
+    println("\(number)*10 = \(number*10)")
+}
+
 
 
 
