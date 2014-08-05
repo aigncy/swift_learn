@@ -50,13 +50,9 @@ var shoppingList = ["eggs","milk"]
 
 println(shoppingList[0])
 
-shoppingList += "bear"
-
 shoppingList[0] = "drink"
 
-shoppingList += "toys"
-
-numberofLegs["human"]=3
+numberofLegs["human"] = 3
 
 println(numberofLegs)
 
@@ -65,6 +61,13 @@ println(shoppingList)
 numberofLegs["chicks"] = 5
 
 println(numberofLegs)
+
+var number = 5
+
+number += 5
+
+
+
 
 
 
