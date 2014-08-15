@@ -2,6 +2,10 @@
 
 import UIKit
 
+var square = 9.4
+var floored = floor(square);
+var root = sqrt(floored)
+
 var str = "Hello, playground"
 
 println("hello world")
