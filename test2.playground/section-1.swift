@@ -16,3 +16,8 @@ let newSortedArray = arrayOfIntsAsStrings.sorted {
     (str1,str2) -> Bool in
     return str1.toInt() < str2.toInt()
 }
+
+for var i = 1; i <= 4; ++i {
+    println(i)
+}
+
